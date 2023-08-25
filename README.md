@@ -8,10 +8,11 @@ To write a program to predict the marks scored by a student using the simple lin
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+1. Import the necessary packages such as pandas, numpy, matplotlib.
+2. Find the head and tail using df.head() and df.tail() method.
+3. Display the arrays values of X, Y and find the regression values and display the values of y_pred and y_test.
+4. Display the training set graph and the test set graph.
+5. Display the values of MSE, MAE and RMSE.
 
 ## Program:
 ```
@@ -73,7 +74,32 @@ print("RMSE = ",rmse)v
 ```
 
 ## Output:
-![simple linear regression model for predicting the marks scored](sam.png)
+## df.head()
+![image](https://github.com/barathsubramani/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/blob/main/head.png)
+
+## df.tail()
+![image](https://github.com/barathsubramani/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/blob/main/tail.png)
+
+## Array value of X
+![image](https://github.com/barathsubramani/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/blob/main/x.png)
+
+## Array value of Y
+![image](https://github.com/barathsubramani/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/blob/main/y.png)
+
+## Values of Y prediction
+![image](https://github.com/barathsubramani/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/blob/main/ypred.png)
+
+## Array values of Y test
+![image](https://github.com/barathsubramani/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/blob/main/ytest.png)
+
+## Training Set Graph
+![image](https://github.com/barathsubramani/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/blob/main/train.png)
+
+## Test Set Graph
+![image](https://github.com/barathsubramani/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/blob/main/test.png)
+
+## Values of MSE, MAE, RMSE
+![image](https://github.com/barathsubramani/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/blob/main/mse.png)
 
 
 ## Result:
